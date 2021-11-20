@@ -1,0 +1,26 @@
+@mixin myBtn {
+    padding: 0.8rem 3.2rem;
+    line-height: 3rem;
+    background: $primary-color;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: $text-color;
+    border: none;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease 0;
+    cursor: pointer;
+    border-radius: 4.5rem;
+    outline: none;
+}
+@mixin hovereffects {
+    color: $main-color;
+    background: $text-color;
+    box-shadow:0 1rem 2rem rgba(255,255,255,0.4);
+}
+@mixin content_center($flex_val) {
+display: flex;
+justify-content: center;
+align-items: $flex_val;
+flex-direction: column;
+}
